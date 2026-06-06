@@ -1,335 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratik Gupta | Executive Portfolio</title>
 
-  <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVVR1G84VG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    gtag('config', 'G-RVVR1G84VG');
+  </script>
 
-    <title>Resume - Pratik Gupta (AWS Certified)</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    
-	<link href='vendor/devicons/css/devicons.min.css' rel='stylesheet'>
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css" rel="stylesheet">
-	
   
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116247836-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Balanced Resume Sheet Layout Engine -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
-  gtag('config', 'UA-116247836-1');
-</script>
+  <!-- Script Libraries for Parsing & Generating Content -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
 
+  <!-- Floating Download Button — lives outside the resume canvas so it is excluded from PDF export -->
+  <button id="download-fab" aria-label="Download CV">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+    Download CV
+  </button>
 
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Pratik Gupta</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile mx-auto mb-2" src="img/profile.jpg" alt="Pratik Gupta">
-        </span>
-      </a>
-      <href></href>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Pratik
-            <span class="text-primary">Gupta</span>
-            <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-10-20&ci=AWS01097682"><img class="img-fluid" src="img/awscert.png" width="60rem" style="padding-bottom: 15px;"></a>
-            <a href="http://bcert.me/sfpxcklu"><img class="img-fluid" src="img/scrumbadge.png" width="60rem" style="padding-bottom: 15px;"></a>
-            <a href="https://api.badgr.io/public/assertions/_zUPviTERkiKJGQilEsH4A?identity__email=pratikgupta05%40yahoo.in" width="60rem" style="padding-bottom: 15px;"><img class="img-fluid" src="img/gitlabcert.png" width="60rem" style="padding-bottom: 15px;"></a>
-          </h1>
-          <div class="subheading mb-5"> Pune, Maharashtra - India · (860) 084-7367
-            <a href="mailto:pratikgupta05@yahoo.in">pratikgupta05@yahoo.in</a>
-          </div>
-          <p class="mb-5">I'm a Cloud Security expert and Engineering Manager with 14+ years of experience in software engineering and agile methodologies.</p>
-		  <p class="mb-5">
-        Hands on Experience in – Development, <b>Security</b> of C#.Net, Net Core,<b> AWS Services </b>, Web API, SQL Server, JavaScript, Python, <b>Docker Containers </b> Elastic Container Services (ECS), Microservices, CI-CD DEV OPS, Service Bus,PowerShell
-		  </p>
-          <ul class="list-inline list-social-icons mb-0">            
-             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/pratikgupta17">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/gpratik">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://stackoverflow.com/users/1113150/pratik">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-	    <li class="list-inline-item">
-              <a href="download/Resume_2024.pdf">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-	  
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-           
-	  <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Cloud Expert and Engineering Manager</h3>
-              <div class="subheading mb-3"> Siemens Digital Industry </div>
-              <p>Managing end-to-end project delivery for enhancements that significantly the scheduling efficiency and driving technical architecture decisions, including the adoption of modern tools and frameworks to boost development speed and product quality.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Sep 2021 - Present</span>
-            </div>
-          </div>
-		
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Advanced Software Developer (Architecting Web Solutions)</h3>
-              <div class="subheading mb-3"> Siemens Digital Industry </div>
-              <p>Developing the APS (Advanced Planning and Scheduling) line of software products. Part of the Manufacturing Operations Management (MOM) portfolio of software, Preactor APS products are world renowned, used across a wide variety of industry segments and are a leader in the field.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Oct 2018 - Aug 2021</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Software Developer</h3>
-              <div class="subheading mb-3">Wolters Kluwer India Pvt.Ltd</div>
-              <p>Development under Tax Product and Common Services for Product.
-			  Bring to the table win-win survival strategies to ensure proactive domination. Special attention to the SSO strategies across organization.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2014 - Sep 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Associate Projects</h3>
-              <div class="subheading mb-3">Cognizant Technology Solutions</div>
-              <p>Worked as a C#.Net developer with great interest in other Microsoft Technologies.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">April 2010 - April 2014</span>
-            </div>
-          </div>
-          
-        </div>
-
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">SGBAU Amravati University</h3>
-              <div class="subheading mb-3">Bachelor of Engineering</div>
-              <div>Electronics & Telecommunication - Software Development Track</div>
-              <p>Percentage: 64.00%</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2005 - May 2009</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Shivaji Science High School</h3>
-              <div class="subheading mb-3">General Science</div>
-              <p>Percentage: 81.00%</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2003 - March 2005</span>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-                  <i class="devicons devicons-aws"></i>
-            </li>
-            <li class="list-inline-item">
-                <i class="devicons devicons-docker"></i>
-            </li>
-            <li class="list-inline-item">
-                <i class="devicons devicons-nodejs"></i>
-            </li>
-			      <li class="list-inline-item">
-              <i class="devicons devicons-netmagazine"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-visualstudio"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-dotnet"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-windows"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>           			
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">            
-		<i class="devicons devicons-git"></i>
-            </li>          
-          </ul>
-
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Service Oriented Architecture, Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Functional Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-             Software Design &amp; Implementation/Integration</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the weekend time, I play cricket and badminton. I enjoy video games, movies, trekking, and swimming.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-        </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-	    <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <a href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-10-20&ci=AWS01097682"> Certified Solutions Architect - Associate (SP, 2020)</a>
-	    </li>
-	    <li>
-	      <i class="fa-li fa fa-trophy text-warning"></i>
-	      <a href="https://api.badgr.io/public/assertions/_zUPviTERkiKJGQilEsH4A?identity__email=pratikgupta05%40yahoo.in">GitLab Certified Associate (SP, 2021)</a>
-	    </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <a href="http://bcert.me/sfpxcklu"> Certified SAFe Practitioner (SP, 2017) - Agile Certification </a>
-	    </li>
-	    <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-               Certified Scrum Master (CSM from Scrum Alliance) (SP,2018)
-	    </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-               Application Foundation .NET Framework 2.0 ( Y. 2012) - Microsoft Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-               ASP .NET 3.5 Web Development ( Y. 2012) - Microsoft Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-               AAPA 273(Annuities Product and Principles)  ( Y. 2012)  - Business Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - ILab Code Games Hackathon - Wolters Kluwer Tech Competition 2017</li>
-            <li>            
-            
-        </div>
-      </section>
-
+  <!-- Thought of the Day Banner — above the resume, never part of the PDF -->
+  <div class="thought-banner" id="thought-banner" style="display:none;">
+    <svg class="thought-banner-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+    <div class="thought-banner-body">
+      <div class="thought-banner-label">Thought of the Day</div>
+      <div class="thought-banner-text" id="thought-text"></div>
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <div class="resume-canvas" id="interactive-sheet">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- LEFT BAR - Contact, Core Focus & Dynamic Sub-items -->
+    <aside class="sidebar">
+      <div class="avatar-wrapper">
+        <svg class="avatar-monogram" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="70" cy="70" r="70" fill="#1d3461"/>
+          <text x="70" y="91" text-anchor="middle" font-family="Inter, sans-serif" font-size="50" font-weight="700" fill="rgba(255,255,255,0.88)" letter-spacing="-2">PG</text>
+        </svg>
+        <img class="profile-avatar" src="profile.jpg" alt="Pratik Gupta" onerror="this.style.display='none'">
+      </div>
+      
+      <div class="sidebar-section">
+        <div class="sidebar-title">Contact</div>
+        <div class="sidebar-content" id="side-contact">
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Pune, Maharashtra, India</span>
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.57 3.44 2 2 0 0 1 3.54 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.83a16 16 0 0 0 6.29 6.29l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:+918600847367">+91 (860) 084-7367</a>
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <a href="#airelie.com">airelie.com</a>
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <a href="https://gpratik.github.io" target="_blank" rel="noopener noreferrer">gpratik.github.io</a>
+          </div>
+          <div class="contact-item">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <a href="https://www.linkedin.com/in/pratikgupta17" target="_blank" rel="noopener noreferrer">linkedin.com/in/pratikgupta17</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+      <div class="sidebar-section">
+        <div class="sidebar-title">Expertise</div>
+        <div class="sidebar-content" id="side-skills">
+          <!-- Populated dynamically via Markdown -->
+        </div>
+      </div>
 
-  </body>
+      <div class="sidebar-section">
+        <div class="sidebar-title">Interests</div>
+        <div class="sidebar-content" id="side-interests" style="font-size:0.8rem; opacity:0.85;">
+          <!-- Populated dynamically via Markdown -->
+        </div>
+      </div>
+    </aside>
 
+    <!-- MAIN RIGHT CANVAS - Experience, Education & Credentials -->
+    <main class="main-panel">
+      <header class="main-header">
+        <h1>Pratik Gupta</h1>
+        <div class="title-sub">Industrial AI Leader &nbsp;&middot;&nbsp; Cloud Architect &nbsp;&middot;&nbsp; Engineering Manager</div>
+      </header>
+
+      <div id="main-timeline-content">
+        <!-- Markdown Core Nodes Hydrated Here -->
+      </div>
+
+      <!-- PDF Timestamp — only visible during PDF generation -->
+      <div class="pdf-timestamp" id="pdf-timestamp"></div>
+    </main>
+  </div>
+
+  <!-- Hidden Layout Template Engine for PDF compilation -->
+  <div id="pdf-sandbox"></div>
+
+  <script>
+    const contentSource = './README.md';
+    const dataSource = './data.json';
+
+    async function runPortfolioEngine() {
+      try {
+        const fetchStream = await fetch(contentSource);
+        if (!fetchStream.ok) throw new Error('Unable to load resume data');
+        const rawMarkdown = await fetchStream.text();
+
+        const cleanHtml = marked.parse(
+          rawMarkdown.replace(/<!--[\s\S]*?-->/g, '')
+        ).replace(/<div[^>]*class="page-break"[^>]*><\/div>/gi, '');
+
+        const temporaryContainer = document.createElement('div');
+        temporaryContainer.innerHTML = cleanHtml;
+
+        let targetTimelineHtml = "";
+        let coreSkillsHtml = "";
+        let personalInterestsHtml = "";
+        let currentHeadingContext = "";
+
+        Array.from(temporaryContainer.children).forEach((element) => {
+          if (element.tagName === 'H1') return;
+          if (element.tagName === 'HR') return;
+
+          if (element.tagName === 'H2') {
+            currentHeadingContext = element.textContent.trim().toLowerCase();
+            if (!currentHeadingContext.includes('expertise') && !currentHeadingContext.includes('interests') && !currentHeadingContext.includes('summary')) {
+              targetTimelineHtml += `<div class="section-title">${element.innerHTML}</div>`;
+            }
+            return;
+          }
+
+          // Skip preamble content that appears before the first section heading
+          if (currentHeadingContext === '') return;
+
+          if (currentHeadingContext.includes('summary')) {
+            targetTimelineHtml += element.outerHTML;
+          } else if (currentHeadingContext.includes('expertise')) {
+            if (element.tagName === 'H3') {
+              coreSkillsHtml += `<div class="skill-group-label">${element.textContent.trim()}</div><div class="skill-badges">`;
+            } else if (element.tagName === 'UL') {
+              Array.from(element.querySelectorAll('li')).forEach(li => {
+                li.textContent.split(',').forEach(skill => {
+                  const s = skill.trim();
+                  if (s) coreSkillsHtml += `<span class="skill-badge">${s}</span>`;
+                });
+              });
+              coreSkillsHtml += '</div>';
+            }
+          } else if (currentHeadingContext.includes('interests')) {
+            personalInterestsHtml += element.outerHTML;
+          } else {
+            targetTimelineHtml += element.outerHTML;
+          }
+        });
+
+        targetTimelineHtml = targetTimelineHtml.replace(
+          /<h3>(.*?)<\/h3>\s*<p><strong>(.*?)<\/strong> \| (.*?)<\/p>/g,
+          function(m, role, company, date) {
+            return `<div class="timeline-node"><div class="node-meta"><strong>${company}</strong>${date}</div><div class="node-body"><h4>${role}</h4>`;
+          }
+        );
+        targetTimelineHtml = targetTimelineHtml.replace(
+          /<\/ul>\s*(?=<div class="timeline-node"|<div class="section-title")/g,
+          '</ul></div></div>'
+        );
+        targetTimelineHtml = targetTimelineHtml.replace(
+          /<h3>(.*?)<\/h3>/g,
+          '<h4 class="credentials-h3">$1</h4>'
+        );
+
+        document.getElementById('main-timeline-content').innerHTML = targetTimelineHtml;
+        document.getElementById('side-skills').innerHTML = coreSkillsHtml;
+        document.getElementById('side-interests').innerHTML = personalInterestsHtml;
+
+        // Load and render a random thought of the day from data.json
+        try {
+          const dataRes = await fetch(dataSource);
+          if (dataRes.ok) {
+            const data = await dataRes.json();
+            if (data.thoughts && data.thoughts.length) {
+              const thought = data.thoughts[Math.floor(Math.random() * data.thoughts.length)];
+              document.getElementById('thought-text').textContent = thought;
+              document.getElementById('thought-banner').style.display = 'flex';
+            }
+          }
+        } catch (_) { /* thought banner is optional — fail silently */ }
+
+      } catch (err) {
+        document.getElementById('main-timeline-content').innerHTML =
+          `<p style="color:red;padding:20px;">Error loading resume: ${err.message}</p>`;
+      }
+    }
+
+    document.getElementById('download-fab').addEventListener('click', () => {
+      const element = document.getElementById('interactive-sheet');
+      const fab = document.getElementById('download-fab');
+      const originalHTML = fab.innerHTML;
+
+      fab.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4l3 3"></path></svg> Compiling...`;
+      fab.disabled = true;
+
+      // Inject download timestamp into the PDF
+      const ts = document.getElementById('pdf-timestamp');
+      const now = new Date();
+      ts.textContent = 'Downloaded: ' + now.toLocaleString('en-IN', {
+        timeZone: 'Asia/Kolkata',
+        day: 'numeric', month: 'long', year: 'numeric',
+        hour: '2-digit', minute: '2-digit', hour12: true
+      }) + ' IST';
+      ts.style.display = 'block';
+
+      const config = {
+        margin:       0,
+        filename:     'Pratik_Gupta_Resume.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2, useCORS: true, logging: false },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+
+      html2pdf().set(config).from(element).save()
+        .then(() => {
+          ts.style.display = 'none';
+          fab.innerHTML = originalHTML;
+          fab.disabled = false;
+        })
+        .catch(() => {
+          ts.style.display = 'none';
+          fab.innerHTML = originalHTML;
+          fab.disabled = false;
+        });
+    });
+
+    window.onload = runPortfolioEngine;
+  </script>
+</body>
 </html>
